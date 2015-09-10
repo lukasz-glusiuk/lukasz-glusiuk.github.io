@@ -1,0 +1,161 @@
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-transform: uppercase;
+  
+}
+
+html {
+    overflow-y: scroll; 
+}
+
+body {
+      background-color: #fafafa;
+      font-size: 18px;
+}
+
+.navbar-default 
+{
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+  border-bottom-color: #dedede;
+  margin-bottom: 0px !important;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav > li {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 28px !important;
+}
+
+.menu-gradient {
+    background: -webkit-linear-gradient(#0e9c39, #80e819); /*Safari 5.1-6*/
+    background: -o-linear-gradient(#0e9c39, #80e819); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(#0e9c39, #80e819); /*Fx 3.6-15*/
+    background: linear-gradient(#0e9c39, #80e819);
+}
+
+.navbar-nav>.active>a {
+  color: white !important;  
+  background-color: #339966 !important;
+  border-radius: 5px !important;
+}
+
+.navbar-nav>li>a{
+   color: white !important;  
+}
+
+.active
+{
+  .background-color: #339966;
+}
+
+.navbar-brand {
+  padding-top: 18px;
+  padding-bottom: 10px;
+  height: 100%;
+}
+
+.main-text {
+  color: white !important;  
+  font-size: 45px;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  padding-top: 60px;
+}
+
+.background-img {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  height: 865px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.background-row {
+  height: 615px;
+}
+
+
+.gray-text {
+  color: #58585a;
+}
+
+.large-text {
+  font-size: 40px;
+}
+
+.medium-text {
+  font-size: 30px;
+}
+
+.red-chevron {
+  color: #f13127;
+  vertical-align: 5px;
+}
+
+.red-chevron-offer {
+  color: #f13127;
+  vertical-align: -1px;
+}
+
+.background-logo {
+  background-image: url(../img/plasta-dol.png);
+  height: 198px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.top-plasta-margin {
+  margin-top: 150px;
+}
+
+.plasta-to-top-margin {
+  margin-top: 75px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.top-margin-second {
+  margin-top: 25px;
+}
+
+.vcenter {
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.background-white {
+  background-color: white !important; 
+}
+
+.about-top-margin {
+  margin-top: 50px;
+}
+
+.owner-info {
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.large-quote {
+  font-weight: bold;
+  font-size: 20px;
+  color: green;
+}
+
+.white-text {
+  color: white;
+}
+
+.text-small {
+  font-size: 12px;
+}
