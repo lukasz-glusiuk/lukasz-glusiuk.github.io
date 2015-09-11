@@ -204,6 +204,7 @@ body {
   line-height: 35px;
   text-align: center;
   vertical-align: middle;
+  font-size: 16px;
 }
 .clear-margin{
   margin: 0px 0px 0px 0px;
@@ -220,4 +221,15 @@ body {
     float: right;
     margin-top: -20px;
     font-size: 28px;
+}
+
+.references > div img{
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 2px solid #c5cbb3;
+}
+
+.contact-left-padding{
+  padding-left: 12px;
 }
