@@ -54,7 +54,20 @@ body {
 {
   .background-color: #339966;
 }
-
+@media (min-width: 768px) {
+  .navbar-nav>.active>a:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-top: solid 15px #339966;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+  }
+}
 .navbar-brand {
   padding-top: 18px;
   padding-bottom: 10px;
@@ -145,11 +158,11 @@ body {
   font-weight: bold;
   margin-top: 25px;
 }
-
 .large-quote {
-  font-weight: bold;
-  font-size: 20px;
-  color: green;
+  background: url(../img/quote.png) no-repeat top left;
+  display: inline-block;
+  height: 21px;
+  width: 24px;
 }
 
 .white-text {
@@ -158,4 +171,19 @@ body {
 
 .text-small {
   font-size: 12px;
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.background-pastel {
+  background-color: #f9fff2;
+}
+
+.about-paddings
+{
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
