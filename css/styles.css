@@ -187,3 +187,37 @@ body {
   padding-bottom: 30px;
   padding-top: 30px;
 }
+
+.clear-left {
+  padding-left: 0px !important;
+}
+
+.left-glyph-padding {
+  padding-left: 20px;
+}
+
+.gray-background {
+  background-color: #d7d7d7;
+}
+
+.center-text-hv {
+  line-height: 35px;
+  text-align: center;
+  vertical-align: middle;
+}
+.clear-margin{
+  margin: 0px 0px 0px 0px;
+}
+
+.font-small {
+  font-size: 14px;
+}
+.clear-bottom-margin {
+  margin-bottom: 0px;
+}
+.green-arrow {
+    color: green;
+    float: right;
+    margin-top: -20px;
+    font-size: 28px;
+}
