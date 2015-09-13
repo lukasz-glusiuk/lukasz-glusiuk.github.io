@@ -241,7 +241,8 @@ body {
 }
 
 .modal-dialog {
-    width: 1200px;
+    max-width: 1200px;
+    width: auto !important;
 }
 
 .modal-body > img {
