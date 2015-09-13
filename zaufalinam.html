@@ -12,6 +12,8 @@
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<link href="css/styles.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	</head>
 	<body> 
 	<div class="navbar navbar-default navbar-static-top menu-gradient">
@@ -58,19 +60,19 @@
    <div class="row font-small">
    	<div class="col-md-offset-1 col-md-11">
    		<div class="row references">
-	   		<div class="col-md-3">
-	   			<img src="img/animex-ref.png"/>
+	   		<div class="col-md-3" data-toggle="modal" data-target="#animex-ref">
+	   			<img src="img/animex-ref.png" class="animex-ref"/>
 	   			<p><span class="glyphicon glyphicon-chevron-right red-chevron-offer"></span>&nbsp;Animex</p>
 	   		</div>
-	   		<div class="col-md-3">
+	   		<div class="col-md-3" data-toggle="modal" data-target="#sokolow-ref">
 	   			<img src="img/sokolow-ref.png"/>
 	   			<p><span class="glyphicon glyphicon-chevron-right red-chevron-offer"></span>&nbsp;Sokołów</p>
 	   		</div>
-	   		<div class="col-md-3">
+	   		<div class="col-md-3" data-toggle="modal" data-target="#jurging-ref">
 	   			<img src="img/jurging-ref.png"/>
 	   			<p><span class="glyphicon glyphicon-chevron-right red-chevron-offer"></span>&nbsp;Jurging</p>
 	   		</div>
-	   		<div class="col-md-3">
+	   		<div class="col-md-3" data-toggle="modal" data-target="#laguna-ref">
 	   			<img src="img/laguna-ref.png"/>
 	   			<p><span class="glyphicon glyphicon-chevron-right red-chevron-offer"></span>&nbsp;CW Laguna</p>
 	   		</div>
@@ -83,6 +85,78 @@
   			*Referencje wystawione są dla firmy Auto – Serwis Stanisław Krawczyk, która była poprzedniczką firmy PLASTA
   		</div>
   	</div>
+  	<!-- Modal -->
+	<div class="modal fade" id="animex-ref" tabindex="-1" role="dialog" aria-labelledby="animexLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="animexLabel">Referencje Animex</h4>
+	      </div>
+	      <div class="modal-body">
+	      		<img src="ref/animex.jpg">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="sokolow-ref" tabindex="-1" role="dialog" aria-labelledby="sokolowLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="sokolowLabel">Referencje Sokołów</h4>
+	      </div>
+	      <div class="modal-body">
+	      		<object data="ref/sokolow.pdf" type="application/pdf" width="1150" height="1000">
+				  
+				</object>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="jurging-ref" tabindex="-1" role="dialog" aria-labelledby="jurgingLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="jurgingLabel">Referencje Jurging</h4>
+	      </div>
+	      <div class="modal-body">
+	      		<img src="ref/jurging.jpg">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="laguna-ref" tabindex="-1" role="dialog" aria-labelledby="lagunaLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="lagunaLabel">Referencje CW Laguna</h4>
+	      </div>
+	      <div class="modal-body">
+	      		<object data="ref/laguna.pdf" type="application/pdf" width="1150" height="1000">
+				  
+				</object>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 </div><!-- /.container -->
 	<!-- script references -->
 		<script src="js/jquery-2.1.4.min.js"></script>
